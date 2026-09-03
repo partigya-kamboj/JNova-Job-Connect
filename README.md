@@ -6,10 +6,10 @@ JNova is a job connection platform designed to help job seekers discover opportu
 
 🚧 **Project Status:** Currently under development.
 
+
 ## 🌐 Live Demo
 
-[Live Demo](https://j-nova-job-connect.vercel.app/)
-
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Website-blue?style=for-the-badge)](https://j-nova-job-connect.vercel.app/)
 ## ✨ Features
 
 - 🔍 Job search and job listings

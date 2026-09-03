@@ -8,11 +8,13 @@ JNova is a job connection platform designed to help job seekers discover opportu
 
 ## 🌐 Live Demo
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Website-blue?style=for-the-badge)](https://j-nova-job-connect-gkwg-496glr8yh-partigya-projects.vercel.app)
-## ✨ Planned Features
+[Live Demo](https://j-nova-job-connect.vercel.app/)
+
+## ✨ Features
 
 - 🔍 Job search and job listings
 - 👤 User registration and login
+- 🔐 Forgot password functionality
 - 🏢 Recruiter and job seeker profiles
 - 📄 Job application functionality
 - 🔎 Search and filtering
@@ -20,23 +22,14 @@ JNova is a job connection platform designed to help job seekers discover opportu
 
 ## 🛠️ Tech Stack
 
-### Frontend
-- HTML
-- CSS
-- JavaScript
-- React.js
-
-### Backend
-- Node.js
-- Express.js
-
-### Database
-- MongoDB
-
-### Tools
-- Git
-- GitHub
-- VS Code
+- ⚛️ React.js
+- ⚡ Vite
+- 🎨 Tailwind CSS
+- 🟨 JavaScript
+- 🧭 React Router DOM
+- 🎯 React Icons
+- 🔧 Git & GitHub
+- ▲ Vercel
 
 ## 📌 Project Goals
 

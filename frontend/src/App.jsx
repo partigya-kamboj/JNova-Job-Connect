@@ -7,6 +7,8 @@ import About from "./Pages/About";
 import Login from "./Pages/Login";
 import Signup from "./Pages/SignUp";
 import ForgetPassword from "./Pages/ForgetPassword";
+import CompanyDashboard from "./Pages/CompanyDashbard";
+import PostJob from "./Pages/PostJob";
 function App() {
   return (
     <>
@@ -19,6 +21,8 @@ function App() {
          <Route path="/login" element={<Login/>}/>
          <Route path="/signup" element={<Signup/>}/>
          <Route path= "/forgot-password"  element={<ForgetPassword/>}/>
+         <Route path="/companydashboard" element={<CompanyDashboard/>}/>
+         <Route path="/post-job" element={<PostJob/>}/>
       </Routes>
       <Footer/>
     </>

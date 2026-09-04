@@ -39,18 +39,12 @@ export default function Navbar() {
               Find Jobs
             </NavLink>
 
-            <NavLink
-              to="/companies"
-              className={({ isActive }) =>
-                `text-[24px] font-medium transition ${
-                  isActive
-                    ? "text-[#2563EB]"
-                    : "text-[#0F172A] hover:text-[#2563EB]"
-                }`
-              }
-            >
-              Companies
-            </NavLink>
+           <NavLink to="/companydashboard" className={({ isActive }) =>`text-[24px] font-medium transition ${isActive ? "text-[#2563EB]": "text-[#0F172A] hover:text-[#2563EB]" 
+    }`
+  } 
+>
+  Companies
+</NavLink>
 
             <NavLink
               to="/about"

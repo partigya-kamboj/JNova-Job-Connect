@@ -58,7 +58,7 @@ export default function Navbar() {
             >
               About
             </NavLink>
-
+            
           </div>
 
           {/* Auth Buttons */}

@@ -9,6 +9,10 @@ import Signup from "./Pages/SignUp";
 import ForgetPassword from "./Pages/ForgetPassword";
 import CompanyDashboard from "./Pages/CompanyDashbard";
 import PostJob from "./Pages/PostJob";
+import MyJobs from "./Pages/MyJobs";
+import Applicants from "./Pages/Applicants";
+import CompanyProfile from "./Pages/CompanyProfile";
+import Settings from "./Pages/Settings";
 function App() {
   return (
     <>
@@ -23,6 +27,10 @@ function App() {
          <Route path= "/forgot-password"  element={<ForgetPassword/>}/>
          <Route path="/companydashboard" element={<CompanyDashboard/>}/>
          <Route path="/post-job" element={<PostJob/>}/>
+         <Route path="/my-jobs"  element={<MyJobs/>}/>
+         <Route path="/applicants" element={<Applicants/>}/>
+         <Route path="/company-profile"element={<CompanyProfile/>}/>
+         <Route path="/settings" element={<Settings/>}/>
       </Routes>
       <Footer/>
     </>

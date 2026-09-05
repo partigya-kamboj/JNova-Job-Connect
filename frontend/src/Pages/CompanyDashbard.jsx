@@ -33,7 +33,7 @@ return (
       <aside className="w-64 bg-[#0A263C] text-white min-h-screen hidden md:flex flex-col">
         <div className="px-6 py-6 border-b border-white/10">
           <h1 className="text-2xl font-bold">
-            Job<span className="text-blue-400">Nova</span> </h1>
+      Job<span className="text-blue-400">Nova</span> </h1>
           <p className="text-xs text-slate-400 mt-1">Employer Dashboard</p>
         </div>
         <nav className="flex-1 px-4 py-6 space-y-2">
@@ -48,8 +48,9 @@ return (
             <FiUsers /> Applicants</Link>
          <Link to="/company-profile" className="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-white/10 transition" >
             <FiUser /> Company Profile </Link>
-               <Link to="/company-settings"className="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-white/10 transition">
-            <FiSettings />Settings</Link> </nav>
+               <Link 
+               to="/settings"
+  className="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-white/10 transition"><FiSettings />  Settings</Link> </nav>
         <div className="p-4 border-t border-white/10">
           <button className="w-full flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-red-500/20 text-red-300 transition">
             <FiLogOut />

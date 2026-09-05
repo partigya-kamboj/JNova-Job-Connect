@@ -1,28 +1,11 @@
 import React, { useState } from "react";
-import {
-  FiEdit,
-  FiEye,
-  FiCheckCircle,
-  FiBriefcase,
-  FiUsers,
-  FiMapPin,
-  FiMail,
-  FiPhone,
-  FiGlobe,
-  FiCalendar,
-  FiLinkedin,
-  FiArrowUpRight,
-  FiStar,
-} from "react-icons/fi";
-
-import logoImage from "../assets/jobnova.png";
-
+import { FiEdit,FiEye,FiCheckCircle,FiBriefcase, FiUsers, FiMapPin,FiMail,FiPhone, FiGlobe, FiCalendar, FiLinkedin,FiArrowUpRight, FiStar,} from "react-icons/fi";
+import logoImage from "../assets/JobNova.png";
 const CompanyProfile = () => {
-  const [showPreview, setShowPreview] = useState(false);
-
-  const jobs = [
-    {
-      id: 1,
+const [showPreview, setShowPreview] = useState(false);
+const jobs = [
+{
+ id: 1,
       title: "Frontend Developer",
       location: "Mohali, Punjab",
       type: "Full Time",
@@ -43,8 +26,7 @@ const CompanyProfile = () => {
       applicants: 12,
     },
   ];
-
-  const benefits = [
+const benefits = [
     "Flexible Working Hours",
     "Work From Home",
     "Learning & Development",
@@ -52,67 +34,26 @@ const CompanyProfile = () => {
     "Performance Bonuses",
     "Friendly Work Environment",
   ];
-
   return (
     <div className="min-h-screen bg-[#F4F8FF] px-4 py-8 md:px-8 lg:px-12">
       <div className="mx-auto max-w-7xl">
-
-        {/* ================= HEADER ================= */}
-
-        <div className="mb-8 flex flex-col justify-between gap-5 md:flex-row md:items-end">
-          <div>
-            <p className="mb-2 text-sm font-semibold uppercase tracking-wide text-blue-600">
-              COMPANY DASHBOARD
-            </p>
-
-            <h1 className="text-3xl font-bold tracking-tight text-[#101828] md:text-4xl">
-              Company Profile
-            </h1>
-
-            <p className="mt-2 text-slate-500">
-              Manage your company information and attract the right candidates.
-            </p>
-          </div>
-
-          <div className="flex gap-3">
-
-            <button
-              onClick={() => setShowPreview(!showPreview)}
-              className="flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-5 py-3 text-sm font-semibold text-slate-600 shadow-sm transition hover:border-blue-200 hover:bg-blue-50 hover:text-blue-600"
-            >
+      <div className="mb-8 flex flex-col justify-between gap-5 md:flex-row md:items-end"> <div>
+            <p className="mb-2 text-sm font-semibold uppercase tracking-wide text-blue-600">COMPANY DASHBOARD </p>
+        <h1 className="text-3xl font-bold tracking-tight text-[#101828] md:text-4xl"></h1>Company Profile</h1>
+        <p className="mt-2 text-slate-500">Manage your company information and attract the right candidates </p></div>
+        <div className="flex gap-3">
+          <button onClick={() => setShowPreview(!showPreview)} className="flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-5 py-3 text-sm font-semibold text-slate-600 shadow-sm transition hover:border-blue-200 hover:bg-blue-50 hover:text-blue-600"  >
               <FiEye />
-              {showPreview ? "Hide Preview" : "Preview"}
-            </button>
-
-            <button className="flex items-center gap-2 rounded-xl bg-blue-600 px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-blue-700">
-              <FiEdit />
-              Edit Profile
-            </button>
-
-          </div>
-        </div>
-
-        {/* ================= PROFILE HERO ================= */}
-
-        <div className="mb-8 overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
-
-          {/* Cover */}
-
-          <div className="h-36 bg-gradient-to-r from-blue-300 to-blue-600 md:h-44">
-            <div className="h-full bg-white/5" />
-          </div>
-
-          {/* Company Info */}
-
-          <div className="px-5 pb-6 md:px-8">
-
-            <div className="flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
-
-              <div className="-mt-12 flex flex-col gap-4 sm:flex-row sm:items-end">
-
-                {/* Logo */}
-
-               <div className="flex h-32 w-32 items-center justify-center rounded-2xl border-4 border-white bg-white p-1 shadow-md">
+              {showPreview ? "Hide Preview" : "Preview"} </button>
+ <button className="flex items-center gap-2 rounded-xl bg-blue-600 px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-blue-700">
+              <FiEdit /> Edit Profile</button></div></div>
+<div className="mb-8 overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
+  <div className="h-36 bg-gradient-to-r from-blue-300 to-blue-600 md:h-44">
+            <div className="h-full bg-white/5" /> </div>
+<div className="px-5 pb-6 md:px-8">
+  <div className="flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
+    <div className="-mt-12 flex flex-col gap-4 sm:flex-row sm:items-end">
+ <div className="flex h-32 w-32 items-center justify-center rounded-2xl border-4 border-white bg-white p-1 shadow-md">
   <img
     src={logoImage}
     alt="JobNova Logo"

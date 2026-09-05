@@ -39,7 +39,7 @@ const benefits = [
       <div className="mx-auto max-w-7xl">
       <div className="mb-8 flex flex-col justify-between gap-5 md:flex-row md:items-end"> <div>
             <p className="mb-2 text-sm font-semibold uppercase tracking-wide text-blue-600">COMPANY DASHBOARD </p>
-        <h1 className="text-3xl font-bold tracking-tight text-[#101828] md:text-4xl"></h1>Company Profile</h1>
+        <h1 className="text-3xl font-bold tracking-tight text-[#101828] md:text-4xl">Company Profile</h1>
         <p className="mt-2 text-slate-500">Manage your company information and attract the right candidates </p></div>
         <div className="flex gap-3">
           <button onClick={() => setShowPreview(!showPreview)} className="flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-5 py-3 text-sm font-semibold text-slate-600 shadow-sm transition hover:border-blue-200 hover:bg-blue-50 hover:text-blue-600"  >

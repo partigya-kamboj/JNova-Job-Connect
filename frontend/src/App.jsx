@@ -13,6 +13,8 @@ import MyJobs from "./Pages/MyJobs";
 import Applicants from "./Pages/Applicants";
 import CompanyProfile from "./Pages/CompanyProfile";
 import Settings from "./Pages/Settings";
+import StudentDashboard from "./Pages/StudentDashboard";
+import AdminDashboard from "./Pages/AdminDashboard";
 function App() {
   return (
     <>
@@ -31,6 +33,8 @@ function App() {
          <Route path="/applicants" element={<Applicants/>}/>
          <Route path="/company-profile"element={<CompanyProfile/>}/>
          <Route path="/settings" element={<Settings/>}/>
+         <Route path="/studentdashboard" element={<StudentDashboard/>}/>
+         <Route path="/admindashboard" element={<AdminDashboard/>}/>
       </Routes>
       <Footer/>
     </>

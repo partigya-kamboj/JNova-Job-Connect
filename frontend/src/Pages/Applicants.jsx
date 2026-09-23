@@ -130,7 +130,7 @@ const matchesSearch =
             value="14"
             description="Upcoming" />
    </div>
-        div className="rounded-2xl border border-slate-200 bg-white shadow-sm">
+        <div className="rounded-2xl border border-slate-200 bg-white shadow-sm">
         <div className="border-b border-slate-100 px-4 pt-5 md:px-6">
        <div className="flex gap-2 overflow-x-auto pb-4">
        {tabs.map((tab) => (
